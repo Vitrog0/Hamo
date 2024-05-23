@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body, html {
+    overflow-x: hidden; /*Sprjecava skrolanje u stranu*/
+    scroll-behavior: smooth; 
+}
+/*Prvi screen*/
+body {
+    display: flex;
+    height: 500vh;
+    width: 100vw;
+    margin: 0;
+    flex-direction: column;
+    border: 0;
+}
+
+.card1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/sport/bilino\ polje.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.subcard1 {
+    height: 100%;
+    width: 66%;
+    
+}
+
+.subcard2 {
+    height: 100%;
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+}
+
+.sport {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.fudbal {
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kosarka {
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rukomet {
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ragbi {
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sport > h1 {
+    font-size: 60pt;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.fudbal > a,
+.kosarka > a,
+.rukomet > a,
+.ragbi > a {
+    font-size: 30pt;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fudbal > a {
+    text-decoration: none;
+    color: white;
+}
+
+.fudbal-section {
+    height: 100vh;
+    background-image: url("../images/sport/nkcelik-1635420934.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tekst {
+    height: 90%;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.slike > p {
+    font-size: 13pt;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.slike {
+    height: 90%;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-left: 40px;
+}   
+    
+
+.kosarka > a {
+    text-decoration: none;
+    color: white;
+}
+
+.kosarka-section {
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1752757/pexels-photo-1752757.jpeg?cs=srgb&dl=pexels-markusspiske-1752757.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.divKosarka {
+    height: 90%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.divKosarka  > p {
+    font-size: 150%;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.rukomet > a {
+    text-decoration: none;
+    color: white;
+}
+
+.rukomet-section {
+    height: 100vh;
+    background-image: url("../images/sport/159215464_200847091626395_2324983177324000402_n.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRukomet {
+    display: flex;
+    height: 90%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.divRukomet   > p {
+    font-size: 150%;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.ragbi > a {
+    text-decoration: none;
+    color: white;
+}
+
+.ragbi-section {
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/featured/rugby-background-lxwt4d33janel5am.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.divRagbi {
+    height: 80%;
+    width: 35%;
+    box-sizing: border-box; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-left: 40px;
+}
+
+.divRagbi   > p {
+    font-size: 150%;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
